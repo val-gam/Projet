@@ -29,25 +29,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        showList();
-        makeAPICall();
+
+        makeApiCall();
     }
 
-    private void showList() {
+    private void showList(List<r6_info>r6_infoList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
         recyclerView.setHasFixedSize(true);
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        List<String> input = new ArrayList<>();
-        for (int i = 0; i < 100; i++) {
-            input.add("Test" + i);
-        }// define an adapter
-        mAdapter = new ListAdapter(input);
+
+        mAdapter = new ListAdapter(r6_infoList);
         recyclerView.setAdapter(mAdapter);
     }
 
-    private static final String BASE_URL = "https://raw.githubusercontent.com/val-gam/";
-    private void makeAPICall(){
+    private static final String BASE_URL = "https://raw.githubusercontent.com/val-gam/Projet_rainbowsix_siege/master/";
+    private void makeApiCall(){
         Gson gson = new GsonBuilder()
                 .setLenient()
                 .create();
@@ -64,8 +61,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onResponse(Call<RestR6Response> call, Response<RestR6Response> response) {
                 if (response.isSuccessful() && response.body() != null){
-                        List<r6_info> r6_infoList = response.body().getResults();
+                    List<r6_info> r6_infoList = response.body().getResults();
                     Toast.makeText(getApplicationContext(), "API Succes", Toast.LENGTH_SHORT).show();
+                    showList(r6_infoList);
                 }else{
                     showError();
                 }

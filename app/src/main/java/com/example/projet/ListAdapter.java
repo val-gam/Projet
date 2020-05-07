@@ -11,7 +11,7 @@ import java.util.List;
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
-    private List<String> values;
+    private List<r6_info> values;
 
         // Provide a reference to the views for each data item
         // Complex data items may need more than one view per item, and
@@ -30,7 +30,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             }
         }
 
-        public void add(int position, String item) {
+        public void add(int position, r6_info item) {
             values.add(position, item);
             notifyItemInserted(position);
         }
@@ -41,8 +41,9 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         }
 
         // Provide a suitable constructor (depends on the kind of dataset)
-        public ListAdapter(List<String> myDataset) {
-            values = myDataset;
+        public ListAdapter(List<r6_info> myDataset) {
+
+             values = myDataset;
         }
 
         // Create new views (invoked by the layout manager)
@@ -64,18 +65,16 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         // Replace the contents of a view (invoked by the layout manager)
         @Override
         public void onBindViewHolder(ViewHolder holder, final int position) {
-            // - get element from your dataset at this position
-            // - replace the contents of the view with that element
-            final String name = values.get(position);
-            holder.txtHeader.setText(name);
-            holder.txtHeader.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    remove(position);
-                }
-            });
 
-            holder.txtFooter.setText("Footer: " + name);
+            final r6_info current_r6_info = values.get(position);
+            holder.txtHeader.setText(current_r6_info.getNameCode());
+            holder.txtFooter.setText(current_r6_info.getAffiliation());
+/*            holder.txtFooter.setText(current_r6_info.getBirthcountry());
+            holder.txtFooter.setText(current_r6_info.getBirthdate());
+            holder.txtFooter.setText(current_r6_info.getRealName());
+            holder.txtFooter.setText(current_r6_info.getHeight());
+            holder.txtFooter.setText(current_r6_info.getWeight());
+            holder.txtFooter.setText(current_r6_info.getPhoto());*/
         }
 
         // Return the size of your dataset (invoked by the layout manager)
