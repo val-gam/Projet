@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -23,15 +25,36 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ListAdapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
+    private SharedPreferences sharedPreferences;
+    private Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        sharedPreferences = getSharedPreferences("r6_infos", Context.MODE_PRIVATE);
+        gson = new GsonBuilder()
+                .setLenient()
+                .create();
+/*
+        List<r6_info> r6_infoList = getDataFromCache();
+        if(r6_infoList != null){
+            showList(r6_infoList);
+        }else{
+            makeApiCall();
+        }
 
-        makeApiCall();
+
+ */
+            makeApiCall();
     }
+
+    /*
+    private List<r6_info> getDataFromCache() {
+    }
+
+     */
 
     private void showList(List<r6_info>r6_infoList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
@@ -39,15 +62,13 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new ListAdapter(r6_infoList);
+        mAdapter = new ListAdapter(r6_infoList,getApplicationContext());
         recyclerView.setAdapter(mAdapter);
     }
 
     private static final String BASE_URL = "https://raw.githubusercontent.com/val-gam/Projet_rainbowsix_siege/master/";
     private void makeApiCall(){
-        Gson gson = new GsonBuilder()
-                .setLenient()
-                .create();
+
 
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
@@ -62,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<RestR6Response> call, Response<RestR6Response> response) {
                 if (response.isSuccessful() && response.body() != null){
                     List<r6_info> r6_infoList = response.body().getResults();
-                    Toast.makeText(getApplicationContext(), "API Succes", Toast.LENGTH_SHORT).show();
+                    saveList(r6_infoList);
                     showList(r6_infoList);
                 }else{
                     showError();
@@ -76,6 +97,15 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    private void saveList(List<r6_info> r6_infoList) {
+        String jsonString = gson.toJson(r6_infoList);
+        sharedPreferences
+                .edit()
+                .putString("jsonr6_infoList", "jsonString")
+                .apply();
+        Toast.makeText(getApplicationContext(), "List saved", Toast.LENGTH_SHORT).show();
     }
 
     private void showError() {

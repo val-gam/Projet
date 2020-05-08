@@ -10,6 +10,11 @@ public class r6_info {
             private String height;
             private String weight;
             private String Photo;
+            private String Embleme;
+
+    public String getEmbleme() {
+        return Embleme;
+    }
 
     public String getNameCode() {
         return NameCode;
