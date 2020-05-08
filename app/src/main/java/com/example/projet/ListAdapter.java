@@ -19,63 +19,63 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     private ImageView imageView;
     private Context context;
 
-        // Provide a reference to the views for each data item
-        // Complex data items may need more than one view per item, and
-        // you provide access to all the views for a data item in a view holder
-         class ViewHolder extends RecyclerView.ViewHolder {
-            // each data item is just a string in this case
-             TextView txtHeader;
-             TextView txtFooter;
-             View layout;
+    // Provide a reference to the views for each data item
+    // Complex data items may need more than one view per item, and
+    // you provide access to all the views for a data item in a view holder
+    class ViewHolder extends RecyclerView.ViewHolder {
+        // each data item is just a string in this case
+        TextView txtHeader;
+        TextView txtFooter;
+        View layout;
 
-             ViewHolder(View v) {
-                super(v);
+        ViewHolder(View v) {
+            super(v);
 
-                layout = v;
+            layout = v;
 
-                txtHeader = (TextView) v.findViewById(R.id.firstLine);
-                imageView = v.findViewById(R.id.imageView);
-                //txtFooter = (TextView) v.findViewById(R.id.secondLine);
-            }
+            txtHeader = (TextView) v.findViewById(R.id.firstLine);
+            imageView = v.findViewById(R.id.imageView);
+            //txtFooter = (TextView) v.findViewById(R.id.secondLine);
         }
+    }
 
-        public void add(int position, r6_info item) {
-            values.add(position, item);
-            notifyItemInserted(position);
-        }
+    public void add(int position, r6_info item) {
+        values.add(position, item);
+        notifyItemInserted(position);
+    }
 
-        public void remove(int position) {
-            values.remove(position);
-            notifyItemRemoved(position);
-        }
+    public void remove(int position) {
+        values.remove(position);
+        notifyItemRemoved(position);
+    }
 
-        // Provide a suitable constructor (depends on the kind of dataset)
-        public ListAdapter(List<r6_info> myDataset,Context context) {
+    // Provide a suitable constructor (depends on the kind of dataset)
+    public ListAdapter(List<r6_info> myDataset,Context context) {
 
-             values = myDataset;
-             this.context = context;
-        }
+        values = myDataset;
+        this.context = context;
+    }
 
-        // Create new views (invoked by the layout manager)
-        @Override
-        public ListAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    // Create new views (invoked by the layout manager)
+    @Override
+    public ListAdapter.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-            LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-            View v = inflater.inflate(R.layout.row_layout, parent, false);
+        LayoutInflater inflater = LayoutInflater.from(parent.getContext());
+        View v = inflater.inflate(R.layout.row_layout, parent, false);
 
-            ViewHolder vh = new ViewHolder(v);
-            return vh;
-        }
+        ViewHolder vh = new ViewHolder(v);
+        return vh;
+    }
 
-        // Replace the contents of a view (invoked by the layout manager)
-        Integer i = 0;
-        @Override
-        public void onBindViewHolder(ViewHolder holder, final int position) {
+    // Replace the contents of a view (invoked by the layout manager)
+    Integer i = 0;
+    @Override
+    public void onBindViewHolder(ViewHolder holder, final int position) {
 
 
-            final r6_info current_r6_info = values.get(position);
-            holder.txtHeader.setText(current_r6_info.getNameCode());
-            //holder.txtFooter.setText(current_r6_info.getAffiliation());
+        final r6_info current_r6_info = values.get(position);
+        holder.txtHeader.setText(current_r6_info.getNameCode());
+        //holder.txtFooter.setText(current_r6_info.getAffiliation());
 /*          holder.txtFooter.setText(current_r6_info.getBirthcountry());
             holder.txtFooter.setText(current_r6_info.getBirthdate());
             holder.txtFooter.setText(current_r6_info.getRealName());
@@ -83,18 +83,19 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             holder.txtFooter.setText(current_r6_info.getWeight());
             holder.txtFooter.setText(current_r6_info.getPhoto());*/
 
-            Glide.with(context).load(values.get(position).getEmbleme()).into(imageView);
+        Glide.with(context).load(values.get(position).getEmbleme()).into(imageView);
 
-            //Detail activity
-            // Picasso.with(this).load(imageURL).fit().centerInside().into(imageView);
-        }
+        //Detail activity
+        // Picasso.with(this).load(imageURL).fit().centerInside().into(imageView);
+    }
 
 
 
 
     @Override
-        public int getItemCount() {
-            return values.size();
-        }
+    public int getItemCount() {
+        return values.size();
+    }
 
 }
+

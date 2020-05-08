@@ -11,8 +11,9 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.google.gson.reflect.TypeToken;
 
-import java.util.ArrayList;
+import java.lang.reflect.Type;
 import java.util.List;
 
 import retrofit2.Call;
@@ -33,28 +34,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sharedPreferences = getSharedPreferences("r6_infos", Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences("ProjetMobile", Context.MODE_PRIVATE);
         gson = new GsonBuilder()
                 .setLenient()
                 .create();
-/*
+
         List<r6_info> r6_infoList = getDataFromCache();
         if(r6_infoList != null){
             showList(r6_infoList);
         }else{
             makeApiCall();
         }
-
-
- */
-            makeApiCall();
     }
 
-    /*
+
     private List<r6_info> getDataFromCache() {
+        String jsonr6_info = sharedPreferences.getString("jsonr6_infoList", null);
+
+        if(jsonr6_info == null){
+            return null;
+        }else {
+            Type listType = new TypeToken<List<r6_info>>(){}.getType();
+            return gson.fromJson(jsonr6_info, listType);
+        }
     }
 
-     */
+
 
     private void showList(List<r6_info>r6_infoList) {
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
@@ -103,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         String jsonString = gson.toJson(r6_infoList);
         sharedPreferences
                 .edit()
-                .putString("jsonr6_infoList", "jsonString")
+                .putString("jsonr6_infoList", jsonString)
                 .apply();
         Toast.makeText(getApplicationContext(), "List saved", Toast.LENGTH_SHORT).show();
     }
