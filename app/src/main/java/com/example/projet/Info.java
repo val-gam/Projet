@@ -30,17 +30,16 @@ public class Info extends AppCompatActivity {
             String textRealName = getIntent().getStringExtra("RealName");
             String textBirthdate = getIntent().getStringExtra("Birthdate");
             String textEmbleme = getIntent().getStringExtra("Embleme");
-            //String textHeight = getIntent().getStringExtra("Height");
-            //String textWeight = getIntent().getStringExtra("Weight");
 
 
-            //set(textRarity, textName, textText, textRace, Picture, textCiv, textType, textID, textPower);
+
+
             Activity(textNameCode, textPhoto, textAffiliation, textbirthcountry, textTeam, textRealName, textBirthdate, textEmbleme/*, textHeight, textWeight*/);
         }
         }
     }
         private void Activity(String textNameCode, String textPhoto, String textAffiliation, String textbirthcountry, String textTeam, String textRealName
-        , String textBirthdate, String textEmbleme/*, String textHeight, String textWeight*/)
+        , String textBirthdate, String textEmbleme)
         {
             TextView NameCode = findViewById(R.id.NameCode);
             NameCode.setText("NameCode:\n " +textNameCode);
@@ -60,11 +59,7 @@ public class Info extends AppCompatActivity {
             TextView Birthdate = findViewById(R.id.Birthdate);
             Birthdate.setText("Birthdate:\n " +textBirthdate);
 
-            //TextView height = findViewById(R.id.Height);
-            //height.setText("height: " +textHeight);
 
-            //TextView weight = findViewById(R.id.Weight);
-            //weight.setText("RealName: " +textWeight);
 
             ImageView Embleme = findViewById(R.id.Embleme);
             Picasso.with(this)
@@ -75,10 +70,6 @@ public class Info extends AppCompatActivity {
             Picasso.with(this)
                     .load(textPhoto)
                     .into(image);
-            //TextView name1 = findViewById(R.id.Affiliation);
-           // name.setText(textAffiliation);
-
-
 
 
         }

@@ -36,7 +36,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
 
             txtHeader = (TextView) v.findViewById(R.id.firstLine);
             imageView = v.findViewById(R.id.imageView);
-            //txtFooter = (TextView) v.findViewById(R.id.secondLine);
+
         }
     }
 
@@ -68,7 +68,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
         return vh;
     }
 
-    // Replace the contents of a view (invoked by the layout manager)
+
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
 
@@ -88,20 +88,8 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
                 intent.putExtra("RealName", current_r6_info.getRealName());
                 intent.putExtra("Birthdate", current_r6_info.getBirthdate());
                 intent.putExtra("Embleme", current_r6_info.getEmbleme());
-                //intent.putExtra("height", current_r6_info.getHeight());
-                //intent.putExtra("weight", current_r6_info.getWeight());
+
                 context.startActivity(intent);
-                // holder.txtFooter.setText(current_r6_info.getAffiliation());
-/*          holder.txtFooter.setText(current_r6_info.getBirthcountry());
-            holder.txtFooter.setText(current_r6_info.getBirthdate());
-            holder.txtFooter.setText(current_r6_info.getRealName());
-            holder.txtFooter.setText(current_r6_info.getHeight());
-            holder.txtFooter.setText(current_r6_info.getWeight());
-            holder.txtFooter.setText(current_r6_info.getPhoto());*/
-
-
-                //Detail activity
-                // Picasso.with(this).load(imageURL).fit().centerInside().into(imageView);
             }
 
         });
