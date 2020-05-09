@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="129dp"
         android:layout_height="71dp"
-        android:text="Rainbow six"
+        android:text="Rainbow Six "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.535"
@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.127" />
 
     <Button
-        android:text="Agent"
+        android:text="Agents"
         android:id="@+id/button_agent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

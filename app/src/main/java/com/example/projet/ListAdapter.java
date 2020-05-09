@@ -1,6 +1,7 @@
 package com.example.projet;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -68,14 +69,29 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
     }
 
     // Replace the contents of a view (invoked by the layout manager)
-    Integer i = 0;
     @Override
     public void onBindViewHolder(ViewHolder holder, final int position) {
 
 
         final r6_info current_r6_info = values.get(position);
         holder.txtHeader.setText(current_r6_info.getNameCode());
-        //holder.txtFooter.setText(current_r6_info.getAffiliation());
+        Glide.with(context).load(values.get(position).getEmbleme()).into(imageView);
+        holder.txtHeader.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(context, Info.class);
+                intent.putExtra("NameCode", current_r6_info.getNameCode());
+                intent.putExtra("Photo", current_r6_info.getPhoto());
+                intent.putExtra("Affiliation", current_r6_info.getAffiliation());
+                intent.putExtra("birthcountry", current_r6_info.getBirthcountry());
+                intent.putExtra("Team", current_r6_info.getTeam());
+                intent.putExtra("RealName", current_r6_info.getRealName());
+                intent.putExtra("Birthdate", current_r6_info.getBirthdate());
+                intent.putExtra("Embleme", current_r6_info.getEmbleme());
+                //intent.putExtra("height", current_r6_info.getHeight());
+                //intent.putExtra("weight", current_r6_info.getWeight());
+                context.startActivity(intent);
+                // holder.txtFooter.setText(current_r6_info.getAffiliation());
 /*          holder.txtFooter.setText(current_r6_info.getBirthcountry());
             holder.txtFooter.setText(current_r6_info.getBirthdate());
             holder.txtFooter.setText(current_r6_info.getRealName());
@@ -83,19 +99,17 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ViewHolder> {
             holder.txtFooter.setText(current_r6_info.getWeight());
             holder.txtFooter.setText(current_r6_info.getPhoto());*/
 
-        Glide.with(context).load(values.get(position).getEmbleme()).into(imageView);
 
-        //Detail activity
-        // Picasso.with(this).load(imageURL).fit().centerInside().into(imageView);
+                //Detail activity
+                // Picasso.with(this).load(imageURL).fit().centerInside().into(imageView);
+            }
+
+        });
     }
-
-
-
 
     @Override
     public int getItemCount() {
         return values.size();
     }
-
 }
 

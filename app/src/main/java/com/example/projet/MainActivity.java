@@ -67,11 +67,11 @@ public class MainActivity extends AppCompatActivity {
         layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
 
-        mAdapter = new ListAdapter(r6_infoList,getApplicationContext());
+        mAdapter = new ListAdapter(r6_infoList,this);
         recyclerView.setAdapter(mAdapter);
     }
 
-    private static final String BASE_URL = "https://raw.githubusercontent.com/val-gam/Projet_rainbowsix_siege/master/";
+    private static final String BASE_URL = "https://raw.githubusercontent.com/val-gam/Projet/master/";
     private void makeApiCall(){
 
 
