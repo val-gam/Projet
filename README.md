@@ -21,12 +21,23 @@
       .affichage d'un menu
       
 ## Fonctionnalités :
-MENU
+ECRAN MENU
 
-.Menu classique avec un bouton pour afficher la liste des éléments
+Menu classique avec un bouton pour afficher la liste des éléments
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/menu.PNG)
+
+
+ECRAN LISTE
+
+Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ainsi que leur emblème
+
+
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/List.PNG)
+
+
+
 
 
       
