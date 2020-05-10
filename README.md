@@ -21,7 +21,7 @@
       .affichage d'un menu
       
 ## Fonctionnalités :
-  ###menu
+###MENU
     .menu classique avec un bouton pour afficher la liste des éléments
 
 
