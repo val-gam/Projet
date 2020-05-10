@@ -23,7 +23,7 @@
 ## Fonctionnalités :
   ###menu
     .menu classique avec un bouton pour afficher la liste des éléments
-    ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/menu.PNG)
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/menu.PNG)
 
 
       
