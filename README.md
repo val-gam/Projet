@@ -6,7 +6,7 @@
     personnelles des personnages "agents" jouables du jeu Rainbow Six Siège à partir d'une API que j'ai créé.
     "heureusement pour moi, je respecte la charte de github puisque les personnages n'existent pas".
 ## Icône de l'application:
-   ![Screenshot](icone.PNG)
+   ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/icone.PNG)
     
 ## Prérequis
     
