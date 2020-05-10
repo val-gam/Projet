@@ -4,13 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Info">
+    tools:context=".Info"
+    android:background="@drawable/info">
 
 
     <TextView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/NameCode"
         android:layout_width="127dp"
         android:layout_height="50dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.942"
@@ -22,6 +26,9 @@
         android:id="@+id/Affiliation"
         android:layout_width="128dp"
         android:layout_height="43dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.943"
@@ -31,9 +38,12 @@
 
 
     <TextView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/Team"
         android:layout_width="122dp"
         android:layout_height="46dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.923"
@@ -42,9 +52,12 @@
         app:layout_constraintVertical_bias="0.205" />
 
     <TextView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/birthcountry"
         android:layout_width="122dp"
         android:layout_height="46dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.944"
@@ -54,9 +67,12 @@
 
 
     <TextView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/Realname"
         android:layout_width="126dp"
         android:layout_height="55dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
@@ -68,6 +84,9 @@
         android:id="@+id/Birthdate"
         android:layout_width="127dp"
         android:layout_height="57dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
@@ -76,6 +95,7 @@
         app:layout_constraintVertical_bias="0.534" />
 
     <ImageView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/Photo"
         android:layout_width="233dp"
         android:layout_height="701dp"
@@ -90,6 +110,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
+        android:background="?android:attr/selectableItemBackground"
         android:id="@+id/Embleme"
         android:layout_width="161dp"
         android:layout_height="192dp"
