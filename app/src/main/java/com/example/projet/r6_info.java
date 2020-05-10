@@ -7,8 +7,7 @@ public class r6_info {
             private String Team;
             private String RealName;
             private String Birthdate;
-            private String height;
-            private String weight;
+
             private String Photo;
             private String Embleme;
 
@@ -38,14 +37,6 @@ public class r6_info {
 
     public String getBirthdate() {
         return Birthdate;
-    }
-
-    public String getHeight() {
-        return height;
-    }
-
-    public String getWeight() {
-        return weight;
     }
 
     public String getPhoto() {

@@ -19,7 +19,7 @@ public class Info extends AppCompatActivity {
         private void getContenu(){
         if (getIntent().hasExtra("NameCode") && getIntent().hasExtra("Photo") && getIntent().hasExtra("Affiliation")
                 && getIntent().hasExtra("birthcountry") && getIntent().hasExtra("Team") && getIntent().hasExtra("RealName")
-                && getIntent().hasExtra("Birthdate") &&  getIntent().hasExtra("Embleme")/* && getIntent().hasExtra("Height") && getIntent().hasExtra("Weight")*/) {
+                && getIntent().hasExtra("Birthdate") &&  getIntent().hasExtra("Embleme")) {
             {
 
             String textNameCode = getIntent().getStringExtra("NameCode");
@@ -34,7 +34,7 @@ public class Info extends AppCompatActivity {
 
 
 
-            Activity(textNameCode, textPhoto, textAffiliation, textbirthcountry, textTeam, textRealName, textBirthdate, textEmbleme/*, textHeight, textWeight*/);
+            Activity(textNameCode, textPhoto, textAffiliation, textbirthcountry, textTeam, textRealName, textBirthdate, textEmbleme);
         }
         }
     }
