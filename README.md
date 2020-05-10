@@ -37,6 +37,19 @@ Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ain
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/List.PNG)
 
 
+INFORMATION IMPORTANTE    
+
+Lors de l'affichage de la liste, les emblème sont affichés et reconnus. Cependant au bout d'un certains nombre d'emblêmes il y a une icône qui bug et cela reboucle les cônes du dessus.
+
+
+ECRAN INFORMATION PERSONNAGE
+
+Lorsque l'on clique sur une nom d'agent dans l'écran liste, ses informations personnelles, sa photo ainsi que sont emblême respectif qui ne bug pas.
+
+
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Ash.PNG)
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos.PNG)
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Mira.PNG)
 
 
 
