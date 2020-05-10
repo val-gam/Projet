@@ -1,13 +1,13 @@
 # Projet (Valérian_gambin_3A)
 
-
-
 ## Présentation
 
     .Le Projet nommé "Projet" est une simple application servant à afficher la liste puis les informations 
     personnelles des personnages "agents" jouables du jeu Rainbow Six Siège à partir d'une API que j'ai créé.
     "heureusement pour moi, je respecte la charte de github puisque les personnages n'existent pas".
-
+## Icône du projet:
+   ![alt text] https://github.com/val-gam/Projet/blob/master/image_readme/icone.PNG
+    
 ## Prérequis
     
     .Installation de Android Studio
@@ -20,7 +20,7 @@
       .Stockage de données en cache
       .affichage d'un menu
       
-## Fonctionalités
+##  :
 
 
       
