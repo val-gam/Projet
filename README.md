@@ -48,8 +48,8 @@ Lorsque l'on clique sur une nom d'agent dans l'écran liste, ses informations pe
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Ash.PNG)
-![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos.PNG)
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Mira.PNG)
+![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos.PNG)
 
 
 
