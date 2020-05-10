@@ -39,7 +39,7 @@ Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ain
 
 INFORMATION IMPORTANTE    
 
-Lors de l'affichage de la liste, les emblème sont affichés et reconnus. Cependant au bout d'un certains nombre d'emblêmes il y a une icône qui bug et cela reboucle les cônes du dessus.
+Lors de l'affichage de la liste, les emblème sont affichés et reconnus. Cependant au bout d'un certains nombre d'emblêmes il y a une icône qui bug et cela recycle les cônes du dessus.
 
 
 ECRAN INFORMATION PERSONNAGE
