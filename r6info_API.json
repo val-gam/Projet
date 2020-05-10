@@ -9,8 +9,6 @@
     "Team":"Defender",
     "RealName":"Aria de Luca",
     "Birthdate":"December 15, 1980",
-    "height":"1.71",
-    "weight":"63",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/f1/Alibi_-_Full_Body.png/revision/latest?cb=20180522223051"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/9/94/Amaru_Icon.png/revision/latest?cb=20190820020748",
@@ -20,8 +18,6 @@
     "Team":"Attacker",
     "RealName":"Azucena Rocio Quispe",
     "Birthdate":"May 6, 1971",
-    "height":"1.89",
-    "weight":"84",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/b/b9/Amaru.png/revision/latest?cb=20190823091315"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d7/Ash_Icon_-_Standard.png/revision/latest?cb=20151222045522",
@@ -31,8 +27,6 @@
     "Team":"Attacker",
     "RealName":"Eliza Cohen",
     "Birthdate":"December 24, 1983",
-    "height":"1.70",
-    "weight":"63",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/42/Ash_-_Full_Body.png/revision/latest?cb=20180224040849"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/30/Bandit_Badge_2.png/revision/latest?cb=20151222045523",
@@ -42,8 +36,6 @@
     "Team":"Defender",
     "RealName":"Dominic Brunsmeier",
     "Birthdate":"August 13, 1974",
-    "height":"1.80",
-    "weight":"68",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/0a/Large-bandit.463ee829.png/revision/latest?cb=20171223235159"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/dd/Blackbeard_badge.png/revision/latest?cb=20160509214645",
@@ -53,8 +45,6 @@
     "Team":"Attacker",
     "RealName":"Craig Jenson",
     "Birthdate":"March 12, 1985",
-    "height":"1.80",
-    "weight":"84",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/09/Large-blackbeard.2292a791.png/revision/latest?cb=20171224004026"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/62/Blitz_Badge_2.png/revision/latest?cb=20151222045523",
@@ -64,8 +54,6 @@
     "Team":"Attacker",
     "RealName":"Elias Kötz",
     "Birthdate":"April 2, 1980",
-    "height":"1.75",
-    "weight":"75",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/6c/Large-blitz.2e74d4b8.png/revision/latest?cb=20171223234918"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/34/Buck_Badge_New.png/revision/latest?cb=20160203040454",
@@ -75,8 +63,6 @@
     "Team":"Attacker",
     "RealName":"Sebastien Côté",
     "Birthdate":"August 20, 1980",
-    "height":"1.78",
-    "weight":"78",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d1/Buck_-_Full_Body.png/revision/latest?cb=20180208034939"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/4e/R6S-badge-capitao.png/revision/latest?cb=20160802150526",
@@ -86,8 +72,6 @@
     "Team":"Attacker",
     "RealName":"Vicente Souza",
     "Birthdate":"November 17, 1967",
-    "height":"1.83",
-    "weight":"86",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/9/96/Large-capitao.984e75b7.png/revision/latest?cb=20171224004428"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/a9/Castle_Badge_2.png/revision/latest?cb=20151222045523",
@@ -97,8 +81,6 @@
     "Team":"Defender",
     "RealName":"Miles Campbell",
     "Birthdate":"September 20, 1980",
-    "height":"1.85",
-    "weight":"86",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d4/Castle_-_Full_Body.png/revision/latest?cb=20180323011330"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/ef/R6S-badge-caveira.png/revision/latest?cb=20160802150554",
@@ -108,8 +90,6 @@
     "Team":"Defender",
     "RealName":"Taina Pereira",
     "Birthdate":"October 15, 1989",
-    "height":"1.77",
-    "weight":"72",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/ac/Large-caveira.e4d82365.png/revision/latest?cb=20171224004722"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/5/5c/Clash_logo_HD_-_Copy2.png/revision/latest?cb=20190525001600",
@@ -119,8 +99,6 @@
     "Team":"Defender",
     "RealName":"Morowa Evans",
     "Birthdate":"June 7, 1983",
-    "height":"1.79",
-    "weight":"73",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/6f/Clash_-_Full_Body.png/revision/latest?cb=20180823044516"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8f/Doc_Badge_2.png/revision/latest?cb=20151222045524",
@@ -130,8 +108,6 @@
     "Team":"Defender",
     "RealName":"Gustave Kateb",
     "Birthdate":"September 16, 1977",
-    "height":"1.77",
-    "weight":"74",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/88/Doc_-_Full_Body.png/revision/latest?cb=20200325001932"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/0c/Dokkaebi_icon.png/revision/latest?cb=20171120222956",
@@ -141,8 +117,6 @@
     "Team":"Attacker",
     "RealName":"Grace Nam",
     "Birthdate":"February 2, 1988",
-    "height":"1.69",
-    "weight":"62",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/9/9a/Dokkaebi_-_Full_Body.png/revision/latest?cb=20180110054756"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/b/b4/R6S-echo.png/revision/latest?cb=20161118012816",
@@ -152,8 +126,6 @@
     "Team":"Defender",
     "RealName":"Masaru Enatsu",
     "Birthdate":"Octoer 31, 1980",
-    "height":"1.80",
-    "weight":"72",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d7/Echo_-_Full_Body.png/revision/latest?cb=20180110071312"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/3f/Ela_icon.png/revision/latest?cb=20170913223125",
@@ -163,8 +135,6 @@
     "Team":"Defender",
     "RealName":"Elzbieta Bosak",
     "Birthdate":"November 8, 1985",
-    "height":"1.73",
-    "weight":"68",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/2/20/Large-ela.a50c192d.png/revision/latest?cb=20171223035318"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/de/Finka_icon.png/revision/latest?cb=20180220011308",
@@ -174,8 +144,6 @@
     "Team":"Attacker",
     "RealName":"Lera Melnikova",
     "Birthdate":"June 7, 1989",
-    "height":"1.71",
-    "weight":"68",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/a2/Finka_-_Full_Body.png/revision/latest?cb=20180224044503"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/c/c1/Frost_Badge_New.png/revision/latest?cb=20160203040937",
@@ -185,8 +153,6 @@
     "Team":"Defender",
     "RealName":"Tina Lin Tsang",
     "Birthdate":"March 4, 1985",
-    "height":"1.72",
-    "weight":"63",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d6/Large-frost.f4325d10.png/revision/latest?cb=20171224003931"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/3f/Fuze_Badge_2.png/revision/latest?cb=20151222045524",
@@ -196,8 +162,6 @@
     "Team":"Attacker",
     "RealName":"Shuhrat Kessikbayev",
     "Birthdate":"October 12, 1982",
-    "height":"1.80",
-    "weight":"80",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/ea/Fuze_-_Full_Body.png/revision/latest?cb=20200324004809"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8d/Glaz_Badge_2.png/revision/latest?cb=20151222045524",
@@ -207,8 +171,6 @@
     "Team":"Attacker",
     "RealName":"Timur Glazkov",
     "Birthdate":"June 2, 1987",
-    "height":"1.78",
-    "weight":"79",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/f0/Glaz_-_Full_Body.png/revision/latest?cb=20200323111814"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/9/9f/Goyo_Icon.png/revision/latest?cb=20190820020749",
@@ -218,8 +180,6 @@
     "Team":"Defender",
     "RealName":"César Ruiz Hernandez",
     "Birthdate":"June 10, 1988",
-    "height":"1.71",
-    "weight":"83",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/72/Goyo.png/revision/latest?cb=20190823091410"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/61/R6S-Gridlock.png/revision/latest?cb=20190218194313",
@@ -229,8 +189,6 @@
     "Team":"Attacker",
     "RealName":"Tori Tallyo Fairous",
     "Birthdate":"August 5, 1982",
-    "height":"1.77",
-    "weight":"102",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/6d/Gridlock_-_Full_Body.png/revision/latest?cb=20190526230241"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/79/R6S-hibana.png/revision/latest?cb=20161118012747",
@@ -240,8 +198,6 @@
     "Team":"Attacker",
     "RealName":"Yumiko Imagawa",
     "Birthdate":"July 12, 1983",
-    "height":"1.73",
-    "weight":"57",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/37/Hibana_-_Full_Body.png/revision/latest?cb=20200323110132"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/e1/Iana_Icon.png/revision/latest?cb=20200311062422",
@@ -251,8 +207,6 @@
     "Team":"Attacker",
     "RealName":"Nienke Meijer",
     "Birthdate":"August 27, 1984",
-    "height":"1.57",
-    "weight":"56",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/81/Iana_-_Full_Body.png/revision/latest?cb=20200312084426"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/b/b7/IQ_Badge_2.png/revision/latest?cb=20151222045524",
@@ -262,8 +216,6 @@
     "Team":"Attacker",
     "Real Name":"Monika Weiss",
     "Birthdate":"August 1, 1979",
-    "height":"1.75",
-    "weight":"70",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8c/IQ_-_Full_Body.png/revision/latest?cb=20180110054100"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d4/R6S-jackal.png/revision/latest?cb=20170206195745",
@@ -273,8 +225,6 @@
     "Team":"Attacker",
     "RealName":"Ryad Ramirez Al-Hassar",
     "Birthdate":"February 29, 1968",
-    "height":"1.90",
-    "weight":"78",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/05/Large-jackal.e7ec96e6.png/revision/latest?cb=20171224004933"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/9/95/Jager_Badge_2.png/revision/latest?cb=20151222045525",
@@ -284,8 +234,6 @@
     "Team":"Defender",
     "RealName":"Marius Streicher",
     "Birthdate":"March 9, 1978",
-    "height":"1.80",
-    "weight":"64",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/4a/Large-jager.edd9f749.png/revision/latest?cb=20171223235105"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/0b/R6S-Kaid.png/revision/latest?cb=20181119192012",
@@ -295,8 +243,6 @@
     "Team":"Defender",
     "RealName":"Jalal El Fassi",
     "Birthdate":"June 26, 1960",
-    "height":"1.95",
-    "weight":"98",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/c/c5/Kaid_-_Full_body.png/revision/latest?cb=20181203130153"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/06/Kali_Icon_2.png/revision/latest?cb=20191111224152",
@@ -306,8 +252,6 @@
     "Team":"Attacker",
     "RealName":"Jaimini Kalimohan Shah",
     "Birthdate":"August 21, 1985",
-    "height":"1.70",
-    "weight":"67",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/fd/Kali_-_Full_Body.png/revision/latest?cb=20200323111231"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/81/Kapkan_Badge_2.png/revision/latest?cb=20151222045525",
@@ -317,8 +261,6 @@
     "Team":"Defender",
     "RealName":"Maxim Basuda",
     "Birthdate":"May 14, 1979",
-    "height":"1.80",
-    "weight":"80",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/fa/Kapkan_-_Full_Body.png/revision/latest?cb=20200324005209"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d2/R6S-Lesion.png/revision/latest?cb=20170828194022",
@@ -328,8 +270,6 @@
     "Team":"Defender",
     "RealName":"Liu Tze Long",
     "Birthdate":"July 2, 1972",
-    "height":"1.74",
-    "weight":"82",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d1/Large-lesion.d48d6d33.png/revision/latest?cb=20171224005745"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/47/Lion.png/revision/latest?cb=20180220011251",
@@ -339,8 +279,6 @@
     "Team":"Attacker",
     "RealName":"Olivier Flament",
     "Birthdate":"August 29, 1985",
-    "height":"1.85",
-    "weight":"87",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/4b/Lion_-_Full_Body.png/revision/latest?cb=20180224044503"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/b/b7/Maestro_-_Icon.png/revision/latest?cb=20180522220537",
@@ -350,8 +288,6 @@
     "Team":"Defender",
     "RealName":"Adriano Martello",
     "Birthdate":"April 13, 1973",
-    "height":"1.85",
-    "weight":"87",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/7e/Maestro_-_Full_Body.png/revision/latest?cb=20180522225530"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/c/c8/Maverick_logo_HD.png/revision/latest?cb=20190524235156",
@@ -361,8 +297,6 @@
     "Team":"Attacker",
     "RealName":"Erik Thorn",
     "Birthdate":"April 20, 1982",
-    "height":"1.80",
-    "weight":"82",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d3/Maverick_-_Full_Body.png/revision/latest?cb=20180823044337"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8f/R6S-mira.png/revision/latest?cb=20170206200012",
@@ -372,8 +306,6 @@
     "Team":"Defender",
     "RealName":"Elena Maria Alvarez",
     "Birthdate":"November 18, 1977",
-    "height":"1.65",
-    "weight":"60",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/e4/Large-mira.0c9e3bd8.png/revision/latest?cb=20171224005055"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/b/be/Montagne_Badge_2.png/revision/latest?cb=20151222045525", 
@@ -383,8 +315,6 @@
     "Team":"Attacker",
     "RealName":"Gilles Touré",
     "Birthdate":"October 11, 1968",
-    "height":"1.90",
-    "weight":"90",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/04/Montagne_-_Full_Body.png/revision/latest?cb=20200323112250"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/3/3a/R6S-Mozzie.png/revision/latest?cb=20190218194326",
@@ -394,8 +324,6 @@
     "Team":"Defender",
     "RealName":"Max Goose",
     "Birthdate":"February 15, 1984",
-    "height":"1.62",
-    "weight":"57",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/1/12/Mozzie_-_Full_Body.png/revision/latest?cb=20190526230242"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/c/c2/Mute_Icon_-_Standard.png/revision/latest?cb=20151222045525",
@@ -405,8 +333,6 @@
     "Team":"Defender",
     "RealName":"Mark Chander",
     "Birthdate":"October 11, 1991",
-    "height":"1.85",
-    "weight":"80",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/7e/Mute_-_Full_Body.png/revision/latest?cb=20180213232125"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/2/2e/Nokk.png/revision/latest?cb=20190523003359",
@@ -416,8 +342,6 @@
     "Team":"Attacker",
     "RealName":"No Data",
     "Birthdate":"No Data",
-    "height":"No Data",
-    "weight":"No Data",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/81/N%C3%B8kk_-_Full_Body.png/revision/latest?cb=20190612000127"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8d/R6S-Nomad.png/revision/latest?cb=20181119191959",
@@ -427,8 +351,6 @@
     "Team":"Attacker",
     "RealName":"Sanaa El Maktoub",
     "Birthdate":"July 27, 1979",
-    "height":"1.71",
-    "weight":"63",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/7d/Nomad_-_Full_body.png/revision/latest?cb=20181203130312"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/89/Oryx_Icon.png/revision/latest?cb=20200311062523",
@@ -438,8 +360,6 @@
     "Team":"Defender",
     "RealName":"Saif Al Hadid",
     "Birthdate":"July 3, 1974",
-    "height":"1.95",
-    "weight":"130",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8e/Oryx_-_Full_Body.png/revision/latest?cb=20200312084428"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/40/Pulse_Badge_2.png/revision/latest?cb=20151222045526",
@@ -449,8 +369,6 @@
     "Team":"Defender",
     "RealName":"Jack Estrada",
     "Birthdate":"October 11, 1984",
-    "height":"1.88",
-    "weight":"85",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/61/Pulse_-_Full_Body.png/revision/latest?cb=20200325001743"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/ab/Rook_Badge_New_2.png/revision/latest?cb=20151222045526",
@@ -460,8 +378,6 @@
     "Team":"Defender",
     "RealName":"Julien Nizan",
     "Birthdate":"January 6, 1990",
-    "height":"1.75",
-    "weight":"72",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/8/8d/Rook_-_Full_Body.png/revision/latest?cb=20200325002109"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/76/Sledge_Icon_-_Standard.png/revision/latest?cb=20151222045526",
@@ -471,8 +387,6 @@
     "Team":"Attacker",
     "RealName":"Seamus Cowden",
     "Birthdate":"April 2, 1982",
-    "height":"1.92",
-    "weight":"95",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/5/55/Sledge_-_Full_Body.png/revision/latest?cb=20180210051516"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/ae/Smoke_Icon_-_Standard.png/revision/latest?cb=20151222045526",
@@ -482,8 +396,6 @@
     "Team":"Defender",
     "RealName":"James Porter",
     "Birthdate":"May 14, 1990",
-    "height":"1.73",
-    "weight":"70",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/0d/Smoke_-_Full_Body.png/revision/latest?cb=20180211234355"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/47/Tachanka_Badge.png/revision/latest?cb=20151202171641",
@@ -493,8 +405,6 @@
     "Team":"Defender",
     "RealName":"Alexsandr Senaviev",
     "Birthdate":"November 3, 1967",
-    "height":"1.83",
-    "weight":"86",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/7/7c/Tachanka_-_Full_Body.png/revision/latest?cb=20180320223016"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/6d/Thatcher_Icon_-_Standard.png/revision/latest?cb=20151222045527",
@@ -504,8 +414,6 @@
     "Team":"Attacker",
     "RealName":"Mike Baker",
     "Birthdate":"June 22, 1961",
-    "height":"1.80",
-    "weight":"72",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/0/09/Thatcher_-_Full_Body.png/revision/latest?cb=20180210071159"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/e3/Thermite_Badge_2.png/revision/latest?cb=20151222045527",
@@ -515,8 +423,6 @@
     "Team":"Attacker",
     "RealName":"Jordan Trace",
     "Birthdate":"March 14, 1982",
-    "height":"1.78",
-    "weight":"80",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/68/Thermite_-_Full_Body.png/revision/latest?cb=20200325001654"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/47/Twitch_Badge_New_2.png/revision/latest?cb=20151222045527",
@@ -526,8 +432,6 @@
     "Team":"Attacker",
     "RealName":"Emmanuelle Pichon",
     "Birthdate":"October 12, 1988",
-    "height":"1.68",
-    "weight":"58",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/f5/Twitch_-_Full_Body.png/revision/latest?cb=20200323110648"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/e/ef/Valkyrie_badge.png/revision/latest?cb=20160509214702",
@@ -537,8 +441,6 @@
     "Team":"Defender",
     "RealName":"Meghan J. Castellano",
     "Birthdate":"July 21, 1986",
-    "height":"1.70",
-    "weight":"61",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/6/66/Large-valkyrie.c1f143fb.png/revision/latest?cb=20171224004201"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/1/1d/Vigil_icon.png/revision/latest?cb=20171120223005",
@@ -548,8 +450,6 @@
     "Team":"Defender",
     "RealName":"Chul Kyung Hwa",
     "Birthdate":"January 17, 1984",
-    "height":"1.73",
-    "weight":"73",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/41/Vigil_-_Full_Body.png/revision/latest?cb=20180110053507"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/c/cc/Wamai_Icon_2.png/revision/latest?cb=20191111223721",
@@ -559,8 +459,6 @@
     "Team":"Defender",
     "RealName":"Ngugi Muchoki Furaha",
     "Birthdate":"June 1, 1991",
-    "height":"1.87",
-    "weight":"83",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/4/4a/Wamai_-_Full_Body.png/revision/latest?cb=20200323110918"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/a5/Warden.png/revision/latest?cb=20190701101127",
@@ -570,8 +468,6 @@
     "Team":"Defender",
     "RealName":"Collinn McKinley",
     "Birthdate":"March 18, 1971",
-    "height":"1.83",
-    "weight":"80",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/ab/Warden_-_Full_Body.png/revision/latest?cb=20190612000128"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/d/d7/R6S-Ying.png/revision/latest?cb=20170828194010",
@@ -581,8 +477,6 @@
     "Team":"Attacker",
     "RealName":"Siu Mei Lin",
     "Birthdate":"May 12, 1983",
-    "height":"1.60",
-    "weight":"52",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/2/27/Ying_-_Full_Body.png/revision/latest?cb=20180409014805"
   },
   { "Embleme":"https://vignette.wikia.nocookie.net/rainbowsix/images/f/fb/Zofia_icon.png/revision/latest?cb=20171115182418",
@@ -592,8 +486,6 @@
     "Team":"Attacker",
     "RealName":"Zofia Bosak",
     "Birthdate":"January 28, 1981",
-    "height":"1.79",
-    "weight":"72",
     "Photo":"https://vignette.wikia.nocookie.net/rainbowsix/images/a/a8/Large-zofia.f9f7568b.png/revision/latest?cb=20171223035501"
   }
 ]
