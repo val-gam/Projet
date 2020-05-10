@@ -14,7 +14,7 @@
         android:layout_width="334dp"
         android:layout_height="174dp"
         android:background="?android:attr/selectableItemBackground"
-        android:text="Click here to see"
+        android:text="Show List"
         android:textColor="@android:color/white"
         android:textSize="30sp"
         android:textStyle="bold"
