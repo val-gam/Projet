@@ -23,7 +23,7 @@
 ## Fonctionnalités :
 ECRAN MENU
 
-Menu classique avec un bouton pour afficher la liste des éléments
+Menu classique avec un bouton pour afficher la liste des éléments.
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/menu.PNG)
@@ -31,7 +31,7 @@ Menu classique avec un bouton pour afficher la liste des éléments
 
 ECRAN LISTE
 
-Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ainsi que leur emblème
+Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ainsi que leur emblème.
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/List.PNG)
@@ -44,12 +44,23 @@ Lors de l'affichage de la liste, les emblème sont affichés et reconnus. Cepend
 
 ECRAN INFORMATION PERSONNAGE
 
-Lorsque l'on clique sur une nom d'agent dans l'écran liste, ses informations personnelles, sa photo ainsi que sont emblême respectif qui ne bug pas.
+Lorsque l'on clique sur une nom d'agent dans l'écran liste, ses informations personnelles.
+
+Elements affichés:
+        
+        Nom de Code (NamCode), Affiliation (Affiliation), Equipe(Team) 
+        
+        Pays de naissance(Birthcountry), Nom et prénoms officiels(RealName), Date de naissance(Birthdate),
+        Photo(Photo) et Emblême. 
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Ash.PNG)
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos_Mira.PNG)
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/infos.PNG)
+
+
+
+Sur cette écran les emblêms de chaque agents sont corrects par rapport à la liste de l'écran précédent.
 
 
 
