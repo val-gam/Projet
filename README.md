@@ -31,7 +31,7 @@ Menu classique avec un bouton pour afficher la liste des éléments.
 
 ECRAN LISTE
 
-Affiche la liste des agents avec Leur Nom de Code dans l'ordre alphabétique ainsi que leur emblème.
+Affiche la liste des agents avec leur Nom de Code dans l'ordre alphabétique ainsi que leur emblème.
 
 
 ![Screenshot](https://github.com/val-gam/Projet/blob/master/image_readme/List.PNG)
